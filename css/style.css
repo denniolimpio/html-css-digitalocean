@@ -1,0 +1,67 @@
+
+/* regole base */
+body {
+  min-width: 310px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* end regole base */
+
+
+/* classi generali */
+.ms_login-btt {
+  background-color: white;
+  color:blue;
+  border-color: blue;
+  font-size: 15px;
+}
+
+.ms_burger {
+  line-height: 80px;
+  text-align: right;
+}
+/* end classi generali */
+
+/* sezioni generali */
+
+/* end sezioni generali */
+
+
+
+/* header */
+header .ms_top-nav {
+}
+.ms_top-nav .ms_menu li {
+  line-height: 80px;
+  margin-bottom: 0;
+}
+.ms_top-nav .ms_menu li a {
+  font-size: 16px;
+
+}
+.ms_top-nav .ms_logo {
+  line-height: 80px;
+  vertical-align: middle;
+}
+.ms_top-nav .ms_logo img {
+  max-width: 180px;
+  height: auto;
+
+}
+
+/* end header */
+
+/* main */
+/* end main */
+
+/* footer */
+/* end footer */
+
+
+/* media query */
+/* end media query */
