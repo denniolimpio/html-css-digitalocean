@@ -7,7 +7,9 @@ a {
   text-decoration: none;
   color: black;
 }
-
+a:hover {
+  text-decoration: none;
+}
 
 
 /* end regole base */
@@ -16,14 +18,15 @@ a {
 /* classi generali */
 .ms_login-btt {
   background-color: white;
-  color:blue;
-  border-color: blue;
+  color: #539be7;
+  border-color: #539be7;
   font-size: 15px;
 }
 
 .ms_burger {
   line-height: 80px;
   text-align: right;
+
 }
 /* end classi generali */
 
@@ -39,6 +42,11 @@ header .ms_top-nav {
 .ms_top-nav .ms_menu li {
   line-height: 80px;
   margin-bottom: 0;
+  padding-left: 15px;
+
+}
+.ms_top-nav .ms_menu li a:hover {
+  color: #539be7;
 }
 .ms_top-nav .ms_menu li a {
   font-size: 16px;
@@ -46,14 +54,20 @@ header .ms_top-nav {
 }
 .ms_top-nav .ms_logo {
   line-height: 80px;
-  vertical-align: middle;
+
+
 }
 .ms_top-nav .ms_logo img {
-  max-width: 180px;
+  max-width: 150px;
   height: auto;
 
-}
 
+}
+.ms_top-nav .ms_burger i {
+  font-size: 17px;
+  color: #539be7;
+
+}
 /* end header */
 
 /* main */
