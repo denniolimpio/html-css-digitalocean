@@ -2,6 +2,7 @@
 /* regole base */
 body {
   min-width: 310px;
+  padding-top: 70px;
 }
 
 
@@ -13,7 +14,9 @@ a:hover {
   text-decoration: none;
 }
 
-
+input::placeholder {
+font-size: 17px;
+}
 /* end regole base */
 
 
@@ -36,7 +39,8 @@ a:hover {
 }
 .ms_btn-form {
   padding: 4px 10px;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 500;
   border-radius: 4px;
   border: none;
   box-shadow: none;
@@ -46,7 +50,8 @@ a:hover {
   box-shadow: none;
 }
 .ms_btn-form:hover {
-  background-color: orange;
+  background-color: #f6ab6d;
+  border: none;
 }
 
 .ms_btn-blue {
@@ -59,7 +64,7 @@ a:hover {
   background-size: 20px;
   background-color: white;
   color: #000;
-  border: .5px solid lightgrey;
+  border: .1px solid lightgrey;
 
 }
 /* end classi generali */
@@ -74,9 +79,11 @@ a:hover {
 
 /*  NAV */
 header .ms_top-nav {
+  background-color: white;
+  height: 70px
 }
 .ms_top-nav .ms_menu li {
-  line-height: 80px;
+  line-height: 60px;
   margin-bottom: 0;
   padding-left: 15px;
   font-weight: 400;
@@ -90,7 +97,7 @@ header .ms_top-nav {
 
 }
 .ms_top-nav .ms_logo {
-  line-height: 80px;
+  line-height: 60px;
 
 
 }
@@ -108,6 +115,8 @@ header .ms_top-nav {
 /* JUMBO */
 header .ms_jumbo {
   background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: contain;
+  background-position: -50px 20px;
 }
 .ms_jumbo .ms_form {
   background-color: white;
@@ -150,4 +159,27 @@ header .ms_jumbo {
 
 
 /* media query */
+/*  xs<SM<md */
+@media screen and (max-width:991px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .ms_jumbo .ms_teaser .ms_white-title h1 {
+  font-size: 58px;
+  }
+  .ms_jumbo .ms_teaser p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+  .ms_jumbo .ms_teaser .ms_white-title h1 {
+  font-size: 46px;
+  }
+
+}
+
+
 /* end media query */
