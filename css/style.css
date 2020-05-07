@@ -3,6 +3,8 @@
 body {
   min-width: 310px;
 }
+
+
 a {
   text-decoration: none;
   color: black;
@@ -16,6 +18,10 @@ a:hover {
 
 
 /* classi generali */
+.ms_white-title{
+  color: white;
+  font-weight: bolder;
+}
 .ms_login-btt {
   background-color: white;
   color: #539be7;
@@ -28,6 +34,15 @@ a:hover {
   text-align: right;
 
 }
+.ms-btn-form {
+  padding: 4px 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+}
+.ms_btn-blue {
+  background-color: #559afc;
+}
 /* end classi generali */
 
 /* sezioni generali */
@@ -36,13 +51,16 @@ a:hover {
 
 
 
-/* header */
+/* !!HEADER */
+
+/*  NAV */
 header .ms_top-nav {
 }
 .ms_top-nav .ms_menu li {
   line-height: 80px;
   margin-bottom: 0;
   padding-left: 15px;
+  font-weight: 400;
 
 }
 .ms_top-nav .ms_menu li a:hover {
@@ -68,7 +86,29 @@ header .ms_top-nav {
   color: #539be7;
 
 }
-/* end header */
+/* JUMBO */
+header .ms_jumbo {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+}
+.ms_jumbo .ms_form {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ms_jumbo .ms_form h2:nth-of-type(2){
+  color: #006afb;
+}
+/* prova */
+
+/* prova */
+
+.ms_teaser p{
+  color: #a3bbfa;
+  font-weight: 400;
+}
+/* !! END HEADER */
 
 /* main */
 /* end main */
