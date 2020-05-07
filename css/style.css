@@ -17,6 +17,9 @@ a:hover {
 input::placeholder {
 font-size: 17px;
 }
+p {
+  color: #6f7b96;
+}
 /* end regole base */
 
 
@@ -117,6 +120,7 @@ header .ms_jumbo {
   background-image: url(../img/bg-home-1-d54581d7.jpg);
   background-size: contain;
   background-position: -50px 20px;
+  margin-bottom: 0;
 }
 .ms_jumbo .ms_form {
   background-color: white;
@@ -128,7 +132,6 @@ header .ms_jumbo {
 .ms_jumbo .ms_form h2:nth-of-type(2){
   color: #006afb;
 }
-/* prova */
 .ms_button p {
   padding: 10px 0;
   font-size: 11px;
@@ -138,28 +141,49 @@ header .ms_jumbo {
   text-decoration: underline;
   color: blue;
 }
-/* prova */
 .ms_google-icon {
   position: absolute;
   padding-left: 0;
 }
-/* prova */
-
 .ms_teaser p{
   color: #a3bbfa;
   font-weight: 400;
 }
 /* !! END HEADER */
 
-/* main */
+/* MAIN */
+
+
+/* ms_logos */
+.ms_logos {
+  background-color: #f3f5f9;
+  padding-bottom: 40px;
+}
 .ms_brand-list .ms_item-logo{
   width: calc(100%/7);
   height: auto;
+  padding: 0 10px;
 }
 .ms_brand-list .ms_item-logo img {
   width: 100%;
   height: auto;
 }
+.ms_brand-list .ms_item-logo:last-child
+{
+  padding: 0px;
+}
+.ms_logos .container > p {
+  text-transform: uppercase;
+  padding-top: 40px;
+  font-size: 17px;
+}
+.ms_blue-link{
+  color: #006afb;
+  font-size: 15px;
+
+}
+
+/* END ms_logos */
 /* end main */
 
 /* footer */
@@ -169,17 +193,39 @@ header .ms_jumbo {
 /* media query */
 /*  xs<SM<md */
 @media screen and (max-width:991px) {
+  /* reset */
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
+  /* header */
+
+  /* jumbotron */
   .ms_jumbo .ms_teaser .ms_white-title h1 {
-  font-size: 58px;
+  font-size: 45px;
   }
   .ms_jumbo .ms_teaser p {
     font-size: 24px;
+    font-weight: 400;
   }
+
+
+  /* main */
+
+  /* list-logos */
+
+  .ms_brand-list .ms_item-logo{
+    width: calc(100%/3);
+    height: auto;
+  }
+  .ms_brand-list .ms_item-logo img {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+
+
 }
 
 @media screen and (min-width:992px) and (max-width: 1199px) {
