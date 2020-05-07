@@ -172,10 +172,12 @@ header .ms_jumbo {
 {
   padding: 0px;
 }
-.ms_logos .container > p {
+.ms_logos .container h3 {
   text-transform: uppercase;
   padding-top: 40px;
   font-size: 17px;
+  color: #6f7b96;
+
 }
 .ms_blue-link{
   color: #006afb;
@@ -213,7 +215,7 @@ header .ms_jumbo {
 
   /* main */
 
-  /* list-logos */
+  /* section list-logos */
 
   .ms_brand-list .ms_item-logo{
     width: calc(100%/3);
@@ -225,6 +227,11 @@ header .ms_jumbo {
     padding: 0 20px;
   }
 
+/* section deploy */
+.ms_deploy-list {
+list-style-type: none;
+  border-left: 1px solid grey;
+}
 
 }
 
