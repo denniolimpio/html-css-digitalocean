@@ -152,16 +152,13 @@ header .ms_jumbo {
 /* !! END HEADER */
 
 /* main */
-.ms_image-brand {
-  max-width: 100%;
-  max-height: 100%;
-  display: inline-block;
-
+.ms_brand-list .ms_item-logo{
+  width: calc(100%/7);
+  height: auto;
 }
-.ms_image-brand img {
-  height: 60px;
-  vertical-align: bottom;
-
+.ms_brand-list .ms_item-logo img {
+  width: 100%;
+  height: auto;
 }
 /* end main */
 
