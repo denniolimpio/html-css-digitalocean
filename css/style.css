@@ -34,14 +34,33 @@ a:hover {
   text-align: right;
 
 }
-.ms-btn-form {
+.ms_btn-form {
   padding: 4px 10px;
   font-size: 15px;
   border-radius: 4px;
   border: none;
+  box-shadow: none;
 }
+
+.ms_form-control:focus {
+  box-shadow: none;
+}
+.ms_btn-form:hover {
+  background-color: orange;
+}
+
 .ms_btn-blue {
   background-color: #559afc;
+}
+.ms_btn-white {
+  background-image: url(../img/google-icon.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 20px;
+  background-color: white;
+  color: #000;
+  border: .5px solid lightgrey;
+
 }
 /* end classi generali */
 
@@ -101,7 +120,20 @@ header .ms_jumbo {
   color: #006afb;
 }
 /* prova */
-
+.ms_button p {
+  padding: 10px 0;
+  font-size: 11px;
+  font-weight: 400;
+}
+.ms_button a {
+  text-decoration: underline;
+  color: blue;
+}
+/* prova */
+.ms_google-icon {
+  position: absolute;
+  padding-left: 0;
+}
 /* prova */
 
 .ms_teaser p{
