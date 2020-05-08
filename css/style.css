@@ -234,8 +234,12 @@ header .ms_jumbo {
   font-size: 17px;
 
 }
-
 /* end deploy */
+
+/* section slider */
+
+/* section slider */
+
 /* end main */
 
 /* footer */
@@ -276,8 +280,8 @@ header .ms_jumbo {
   }
 
 /* section deploy */
-.ms_deploy-list {
-list-style-type: none;  border-left: 1px solid grey;
+.ms_deploy ul {
+  padding-bottom: 0px;
 }
 
 }
