@@ -237,7 +237,43 @@ header .ms_jumbo {
 /* end deploy */
 
 /* section slider */
+.ms_slider {
 
+}
+.ms_slider-content {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+
+
+}
+.ms_slider-content .ms_slider-single {
+  width: 80%;
+  margin: 0 auto;
+
+}
+.ms_slider-content .ms_slider-single img {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  font-weight: bolder;
+  width: 100%;
+}
+.ms_arrow {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ms_arrow.ms_arrow-left  {
+  left: 0;
+
+}
+
+.ms_arrow.ms_arrow-right  {
+right: 0;
+}
 /* section slider */
 
 /* end main */
