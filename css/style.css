@@ -5,6 +5,9 @@ body {
   padding-top: 70px;
 }
 
+ul {
+  list-style-type: none;
+}
 
 a {
   text-decoration: none;
@@ -34,6 +37,7 @@ p {
 
 .ms_intro {
   text-align: center;
+  padding-bottom: 50px;
 }
 .ms_login-btt {
   background-color: white;
@@ -176,14 +180,14 @@ header .ms_jumbo {
 
 /* MAIN */
 /* partners */
-.ms_intro h3 {
-  font-size: 17px;
+.ms_client .ms_intro h3 {
+  font-size: 16px;
   text-transform: uppercase;
-  color: grey;
+  color: #9da7ba;
   font-weight: 400;
 }
 
-.ms_partners .ms_item-logo{
+.ms_client .ms_partners .ms_item-logo{
   width: calc(100%/7);
   height: auto;
   padding: 0 10px;
@@ -199,11 +203,39 @@ header .ms_jumbo {
 
 .ms_blue-link{
   color: #006afb;
-  font-size: 16px;
+  font-size: 17px;
 
 }
 
 /* END partners */
+
+/* deploy */
+.ms_intro h2{
+  font-size: 36px;
+
+}
+.ms_intro p {
+  font-size: 20px;
+}
+.ms_deploy ul {
+  padding: 0;
+  padding-bottom: 40px;
+  color: #abb2c1
+}
+.ms_deploy ul li {
+  font-size: 18px;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+}
+.ms_card h3 {
+  font-size: 18px;
+}
+.ms_card p {
+  font-size: 17px;
+
+}
+
+/* end deploy */
 /* end main */
 
 /* footer */
