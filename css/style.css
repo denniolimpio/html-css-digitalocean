@@ -24,9 +24,16 @@ p {
 
 
 /* classi generali */
-.ms_white-title{
-  color: white;
-  font-weight: bolder;
+.ms_primary{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+.ms_secondary {
+  background-color: white;
+}
+
+.ms_intro {
+  text-align: center;
 }
 .ms_login-btt {
   background-color: white;
@@ -36,7 +43,7 @@ p {
 }
 
 .ms_burger {
-  line-height: 80px;
+  line-height: 60px;
   text-align: right;
 
 }
@@ -52,20 +59,16 @@ p {
 .ms_form-control:focus {
   box-shadow: none;
 }
-.ms_btn-form:hover {
-  background-color: #f6ab6d;
-  border: none;
-}
 
 .ms_btn-blue {
   background-color: #559afc;
 }
-.ms_btn-white {
+.ms_btn-white{
   background-image: url(../img/google-icon.png);
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 20px;
-  background-color: white;
+  background-color:#fff;
   color: #000;
   border: .1px solid lightgrey;
 
@@ -73,7 +76,9 @@ p {
 /* end classi generali */
 
 /* sezioni generali */
-
+.ms_section {
+  padding: 40px 0;
+}
 /* end sezioni generali */
 
 
@@ -88,7 +93,6 @@ header .ms_top-nav {
 .ms_top-nav .ms_menu li {
   line-height: 60px;
   margin-bottom: 0;
-  padding-left: 15px;
   font-weight: 400;
 
 }
@@ -96,7 +100,7 @@ header .ms_top-nav {
   color: #539be7;
 }
 .ms_top-nav .ms_menu li a {
-  font-size: 16px;
+  font-size: 14px;
 
 }
 .ms_top-nav .ms_logo {
@@ -122,70 +126,84 @@ header .ms_jumbo {
   background-position: -50px 20px;
   margin-bottom: 0;
 }
+.ms_jumbo .ms_teaser h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 56px;
+  padding-bottom: 15px;
+}
+.ms_jumbo .ms_teaser p{
+  color: #a3bbfa;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* jumbo form-setup */
 .ms_jumbo .ms_form {
   background-color: white;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
 }
-
-.ms_jumbo .ms_form h2:nth-of-type(2){
+.ms_form .ms_form-control{
+  padding: 20px 12px;
+}
+.ms_form .ms_form-text h2:nth-of-type(2){
   color: #006afb;
 }
-.ms_button p {
-  padding: 10px 0;
+.ms_jumbo .ms_form p{
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #000;
+  padding-top: 15px;
 }
-.ms_button a {
+
+.ms_jumbo .ms_form a {
   text-decoration: underline;
   color: blue;
 }
+
+.ms_btn-form {
+  padding: 10px 16px;
+}
+
 .ms_google-icon {
   position: absolute;
   padding-left: 0;
 }
-.ms_teaser p{
-  color: #a3bbfa;
-  font-weight: 400;
-}
+
 /* !! END HEADER */
 
 /* MAIN */
-
-
-/* ms_logos */
-.ms_logos {
-  background-color: #f3f5f9;
-  padding-bottom: 40px;
+/* partners */
+.ms_intro h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: 400;
 }
-.ms_brand-list .ms_item-logo{
+
+.ms_partners .ms_item-logo{
   width: calc(100%/7);
   height: auto;
   padding: 0 10px;
 }
-.ms_brand-list .ms_item-logo img {
+.ms_partners .ms_item-logo img {
   width: 100%;
   height: auto;
 }
-.ms_brand-list .ms_item-logo:last-child
+.ms_partners .ms_item-logo:last-child
 {
   padding: 0px;
 }
-.ms_logos .container h3 {
-  text-transform: uppercase;
-  padding-top: 40px;
-  font-size: 17px;
-  color: #6f7b96;
 
-}
 .ms_blue-link{
   color: #006afb;
-  font-size: 15px;
+  font-size: 16px;
 
 }
 
-/* END ms_logos */
+/* END partners */
 /* end main */
 
 /* footer */
@@ -194,7 +212,7 @@ header .ms_jumbo {
 
 /* media query */
 /*  xs<SM<md */
-@media screen and (max-width:991px) {
+@media screen and (max-width:767px) {
   /* reset */
   * {
     padding: 0;
@@ -217,27 +235,27 @@ header .ms_jumbo {
 
   /* section list-logos */
 
-  .ms_brand-list .ms_item-logo{
+  .ms_partners .ms_item-logo{
     width: calc(100%/3);
     height: auto;
   }
-  .ms_brand-list .ms_item-logo img {
-    width: 100%;
-    height: auto;
-    padding: 0 20px;
+  .ms_partners .ms_item-logo {
+
   }
 
 /* section deploy */
 .ms_deploy-list {
-list-style-type: none;
-  border-left: 1px solid grey;
+list-style-type: none;  border-left: 1px solid grey;
 }
 
 }
 
-@media screen and (min-width:992px) and (max-width: 1199px) {
-  .ms_jumbo .ms_teaser .ms_white-title h1 {
-  font-size: 46px;
+@media screen and (min-width:768px) and (max-width: 991px) {
+  .ms_jumbo .ms_teaser h1 {
+    font-size: 37px;
+  }
+  .ms_jumbo .ms_teaser p{
+    font-size: 23px;
   }
 
 }
