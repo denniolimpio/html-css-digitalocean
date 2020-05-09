@@ -256,8 +256,6 @@ header .ms_jumbo {
 .ms_slider-content .ms_slider-single img {
   padding-top: 50px;
   padding-bottom: 20px;
-
-  font-weight: bolder;
   width: 100%;
 }
 .ms_arrow {
@@ -274,6 +272,26 @@ header .ms_jumbo {
 .ms_arrow.ms_arrow-right  {
 right: 0;
 }
+.ms_slider .text-center p {
+  font-size: 15px;
+  color: #000;
+}
+.ms_slider .text-center .list-inline {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.ms_slider .text-center .list-inline > li{
+  font-size: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  color: #166aff;
+
+}
+
+.ms_slider .text-center .list-inline .ms_active{
+  color:#166aff;
+}
 /* section slider */
 
 /* end main */
@@ -283,7 +301,9 @@ right: 0;
 
 
 /* media query */
-/*  xs<SM<md */
+
+
+/* xs - smartphone */
 @media screen and (max-width:767px) {
   /* reset */
   * {
@@ -293,7 +313,7 @@ right: 0;
   }
   /* header */
 
-  /* jumbotron */
+  /*  - - - - - jumbotron */
   .ms_jumbo .ms_teaser .ms_white-title h1 {
   font-size: 45px;
   }
@@ -305,30 +325,51 @@ right: 0;
 
   /* main */
 
-  /* section list-logos */
+  /* - - - - - - section client */
 
   .ms_partners .ms_item-logo{
     width: calc(100%/3);
     height: auto;
   }
-  .ms_partners .ms_item-logo {
 
-  }
-
-/* section deploy */
+/* - - - - - - - - section deploy */
 .ms_deploy ul {
   padding-bottom: 0px;
 }
 
 }
+/* sm - tablet */
 
 @media screen and (min-width:768px) and (max-width: 991px) {
+  /* header */
+
+  /* - - - - - - - - - jumbo */
   .ms_jumbo .ms_teaser h1 {
     font-size: 37px;
   }
   .ms_jumbo .ms_teaser p{
     font-size: 23px;
   }
+
+}
+/* md - desktop */
+@media screen and (min-width: 992px) {
+/* header */
+/* header *
+
+/
+/* main */
+/* -------slide */
+.ms_slider .text-center .list-inline {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/* fine main */
+
+
+/* footer */
+/* fine footer */
+
 
 }
 
