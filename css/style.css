@@ -4,11 +4,9 @@ body {
   min-width: 310px;
   padding-top: 70px;
 }
-
 ul {
   list-style-type: none;
 }
-
 a {
   text-decoration: none;
   color: black;
@@ -16,9 +14,8 @@ a {
 a:hover {
   text-decoration: none;
 }
-
 input::placeholder {
-font-size: 17px;
+  font-size: 17px;
 }
 p {
   color: #6f7b96;
@@ -27,14 +24,6 @@ p {
 
 
 /* classi generali */
-.ms_primary{
-  background-color: #f3f5f9;
-  text-align: center;
-}
-.ms_secondary {
-  background-color: white;
-}
-
 .ms_intro {
   text-align: center;
   padding-bottom: 50px;
@@ -45,7 +34,6 @@ p {
   border-color: #539be7;
   font-size: 15px;
 }
-
 .ms_burger {
   line-height: 60px;
   text-align: right;
@@ -59,11 +47,9 @@ p {
   border: none;
   box-shadow: none;
 }
-
 .ms_form-control:focus {
   box-shadow: none;
 }
-
 .ms_btn-blue {
   background-color: #559afc;
 }
@@ -77,16 +63,44 @@ p {
   border: .1px solid lightgrey;
 
 }
+.ms_blue-link{
+  color: #006afb;
+  font-size: 17px;
+}
+.ms_acronym {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.ms_btn-acc {
+  color: #006afb;
+  font-size: 13px;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
 /* end classi generali */
+.ms_opacity-5 {
+  opacity: .5;
 
+}
 /* sezioni generali */
 .ms_section {
   padding: 40px 0;
 }
+.ms_primary{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+.ms_secondary {
+  background-color: white;
+}
+.ms_tertiary {
+  background: rgb(5,49,176);
+  background: linear-gradient(171deg, rgba(5,49,176,1) 30%, rgba(28,53,217,1) 81%);
+  color: #fff;
+}
+
 /* end sezioni generali */
-
-
-
 /* !!HEADER */
 
 /*  NAV */
@@ -98,25 +112,19 @@ header .ms_top-nav {
   line-height: 60px;
   margin-bottom: 0;
   font-weight: 400;
-
 }
 .ms_top-nav .ms_menu li a:hover {
   color: #539be7;
 }
 .ms_top-nav .ms_menu li a {
   font-size: 14px;
-
 }
 .ms_top-nav .ms_logo {
   line-height: 60px;
-
-
 }
 .ms_top-nav .ms_logo img {
   max-width: 150px;
   height: auto;
-
-
 }
 .ms_top-nav .ms_burger i {
   font-size: 17px;
@@ -161,16 +169,13 @@ header .ms_jumbo {
   color: #000;
   padding-top: 15px;
 }
-
 .ms_jumbo .ms_form a {
   text-decoration: underline;
   color: blue;
 }
-
 .ms_btn-form {
   padding: 10px 16px;
 }
-
 .ms_google-icon {
   position: absolute;
   padding-left: 0;
@@ -186,7 +191,6 @@ header .ms_jumbo {
   color: #9da7ba;
   font-weight: 400;
 }
-
 .ms_client .ms_partners .ms_item-logo{
   width: calc(100%/7);
   height: auto;
@@ -197,14 +201,8 @@ header .ms_jumbo {
   height: auto;
 }
 .ms_partners .ms_item-logo:last-child
-{
+  {
   padding: 0px;
-}
-
-.ms_blue-link{
-  color: #006afb;
-  font-size: 17px;
-
 }
 
 /* END partners */
@@ -232,32 +230,26 @@ header .ms_jumbo {
 }
 .ms_card p {
   font-size: 17px;
-
 }
 /* end deploy */
 
 /* section slider */
-.ms_slider {
-
-}
 .ms_slider-content {
   position: relative;
   width: 70%;
   margin: 0 auto;
   position: relative;
-
-
 }
 .ms_slider-content .ms_slider-single {
   width: 80%;
   margin: 0 auto;
-
 }
 .ms_slider-content .ms_slider-single img {
   padding-top: 50px;
   padding-bottom: 20px;
   width: 100%;
 }
+
 .ms_arrow {
   font-size: 20px;
   position: absolute;
@@ -266,12 +258,11 @@ header .ms_jumbo {
 }
 .ms_arrow.ms_arrow-left  {
   left: 0;
-
 }
-
 .ms_arrow.ms_arrow-right  {
-right: 0;
+  right: 0;
 }
+
 .ms_slider .text-center p {
   font-size: 15px;
   color: #000;
@@ -280,69 +271,140 @@ right: 0;
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
 .ms_slider .text-center .list-inline > li{
   font-size: 10px;
   padding-left: 0;
   padding-right: 0;
   color: #166aff;
-
 }
-
 .ms_slider .text-center .list-inline .ms_active{
   color:#166aff;
 }
 /* section slider */
+/* section regions */
+.ms_regions .ms_intro {
+  padding-bottom: 10px;
+}
+.ms_regions .ms_border-inf {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  font-size: 12px;
+}
+.ms_regions .ms_border-inf .ms_sp-center{
+  margin-left: 35px;
+  opacity: .6;
+}
+.ms_regions .ms_border-inf > span {
+  margin-left: 8px;
+}
+.ms_regions .ms_border-inf a {
+  color: #33bccb;
+  position: absolute;
+  right: 30px;
+}
+.ms_regions .ms_border-inf:last-child {
+  border: none;
+}
+
+/* section slider-footer */
+.ms_blockquote h5 {
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+.ms_slider-footer {
+  padding-bottom: 40px;
+
+}
+.ms_slider-single.ms_slider-footer.ms_secondary .ms_blue-link{
+  font-size: 12px;
+  padding-top: 50px;
+
+}
+.ms_blockquote p:last-of-type {
+  font-size: 12px;
+  color: #000;
+  padding-top: 0;
+}
+/* section register */
 
 /* end main */
-
 /* footer */
+.ms_footer {
+  padding: 40px 0;
+  background-color: #01154c;
+  color: white;
+}
+.ms_footer [class*="col-"]> [class*="col-"] {
+  padding: 0;
+}
+
+.ms_footer ul {
+  padding: 10px 0;
+}
+.ms_footer .ms_menu-footer a {
+  color: #fff;
+  opacity: .5;
+  font-size: 14px;
+}
+.ms_footer h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+footer .ms_credits {
+padding-top: 10px;
+line-height: 10px;
+}
+.ms_social li i {
+  font-size: 17px;
+}
 /* end footer */
-
-
 /* media query */
-
-
 /* xs - smartphone */
 @media screen and (max-width:767px) {
-  /* reset */
+    /* reset */
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   /* header */
-
   /*  - - - - - jumbotron */
   .ms_jumbo .ms_teaser .ms_white-title h1 {
-  font-size: 45px;
-  }
+      font-size: 45px;
+    }
   .ms_jumbo .ms_teaser p {
-    font-size: 24px;
-    font-weight: 400;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    /* main */
+
+    /* - - - - - - section client */
+    .ms_client .ms_partners .ms_item-logo{
+      width: calc(100%/3);
+      height: auto;
+      padding: 0 10px;
+    }
+    .ms_partners .ms_item-logo img {
+      width: 100%;
+      height: auto;
+    }
+    /* - - - - - -  end section client */
+
+    /* - - - - - - - - section deploy */
+  .ms_deploy ul {
+    padding-bottom: 0px;
   }
-
-
-  /* main */
-
-  /* - - - - - - section client */
-
-  .ms_partners .ms_item-logo{
-    width: calc(100%/3);
-    height: auto;
+  /* - - - - - - - - end section deploy */
+  .ms_services .ms_card {
+    margin-bottom: 40px;
   }
-
-/* - - - - - - - - section deploy */
-.ms_deploy ul {
-  padding-bottom: 0px;
-}
+  /* end section card */
+  /* footer */
 
 }
 /* sm - tablet */
-
 @media screen and (min-width:768px) and (max-width: 991px) {
   /* header */
-
   /* - - - - - - - - - jumbo */
   .ms_jumbo .ms_teaser h1 {
     font-size: 37px;
@@ -350,17 +412,13 @@ right: 0;
   .ms_jumbo .ms_teaser p{
     font-size: 23px;
   }
-
 }
 /* md - desktop */
 @media screen and (min-width: 992px) {
-/* header */
-/* header *
-
-/
-/* main */
-/* -------slide */
-.ms_slider .text-center .list-inline {
+  /* header */
+  /* header *
+  /* main */
+  .ms_slider .text-center .list-inline {
   padding-top: 10px;
   padding-bottom: 20px;
 }

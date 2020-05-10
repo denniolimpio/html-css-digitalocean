@@ -12,14 +12,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <!-- inizio header -->
   <header>
     <div class="ms_top-nav navbar-fixed-top">
       <div class="container">
         <div class="row">
-
           <!-- colonna logo -->
           <div class="col-xs-3 col-md-2">
             <div class="ms_logo">
@@ -29,7 +27,6 @@
             </div>
           </div>
           <!-- end colonna logo -->
-
           <!-- navigation bar center -->
           <div class="col-xs-4 col-md-5 col-md-offset-1">
             <nav class="hidden-xs hidden-sm">
@@ -52,7 +49,6 @@
             </nav>
           </div>
           <!-- end navigation bar center -->
-
           <!-- navigation bar right -->
           <div class="col-xs-4 col-md-4 text-right ">
             <nav class="hidden-xs hidden-sm">
@@ -73,7 +69,7 @@
               </ul>
             </nav>
           </div>
-
+          <!-- end navigation bar right -->
           <!-- burger menu toggle / visibile da tab e inferiori -->
           <div class="hidden-md hidden-lg">
             <div class="col-xs-9">
@@ -84,17 +80,15 @@
               </div>
             </div>
           </div>
-          <!-- end toggle burgerx -->
+          <!-- end burger menu toggle-->
         </div>
       </div>
     </div>
     <!-- end top nav-bar -->
-
     <!-- inizio jumbo -->
     <div class="jumbotron ms_jumbo">
       <div class="container">
         <div class="row">
-
           <!-- colonna sinistra -->
           <div class="col-xs-12 col-sm-7 ">
             <div class="ms_teaser">
@@ -107,7 +101,6 @@
             </div>
           </div>
           <!-- end colonna sinistra -->
-
           <!-- colonna destra -->
           <div class="col-xs-12 col-sm-5 ">
             <!-- form -->
@@ -206,7 +199,6 @@
           </p>
         </div>
         <!-- fine intro -->
-
         <div class="row">
           <!-- colonna sinistra -->
           <div class="col-xs-12 col-sm-3 col-sm-offset-1">
@@ -219,10 +211,8 @@
             </ul>
           </div>
           <!-- fine colonna sinistra -->
-
           <!-- colonna destra -->
           <div class="col-xs-12 col-sm-8">
-
             <!-- riga sup -->
             <div class="row">
               <!-- card cluster sup -->
@@ -249,7 +239,6 @@
               <!-- card opti  sup-->
             </div>
             <!-- fine riga sup -->
-
             <!-- riga inferiore -->
             <div class="row">
               <!-- card click inf -->
@@ -263,7 +252,6 @@
                 </div>
               </div>
               <!-- fine card click inf -->
-
               <!-- card global inf -->
               <div class="col-xs-12 col-sm-6">
                 <div class="ms_card">
@@ -275,7 +263,6 @@
               <!--fine global -->
             </div>
             <!-- fine row inferiore -->
-
           </div>
           <!-- fine colonna destra -->
         </div>
@@ -286,49 +273,406 @@
     <!-- fine section -->
 
     <!-- inizio section slider -->
-    <section id="slide" class="ms_slider ms_section ms_primary">
+    <section id="slide-top" class="ms_slider ms_section ms_primary">
       <div class="container">
         <!-- intro -->
-          <div class="ms_intro">
-            <h2>Designed for developers</h2>
-            <p> Build more and spend less time managing your infrastructure with our easy-to-use
-                control panel API.
-            </p>
+        <div class="ms_intro">
+          <h2>Designed for developers</h2>
+          <p> Build more and spend less time managing your infrastructure with our easy-to-use
+            control panel API.
+          </p>
+        </div>
+        <!-- fine intro -->
+        <!-- slider contenuto -->
+        <div class="ms_slider-content">
+          <!-- freccia sinistra -->
+          <div class="ms_arrow ms_arrow-left hidden-xs hidden-sm">
+            <i class="fas fa-chevron-left"></i>
           </div>
-          <!-- fine intro -->
-          <!-- slider contenuto -->
-            <div class="ms_slider-content">
-              <!-- freccia sinistra -->
-              <div class="ms_arrow ms_arrow-left hidden-xs hidden-sm">
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="ms_slider-single">
-                <img src="img/screenshot-create-droplet-12336b41.jpg" alt="">
-              </div>
-              <!-- freccia destra -->
-              <div class="ms_arrow ms_arrow-right hidden-xs hidden-sm">
-                <i class="fas fa-chevron-right"></i>
-              </div>
+          <div class="ms_slider-single">
+            <img src="img/screenshot-create-droplet-12336b41.jpg" alt="">
+          </div>
+          <!-- freccia destra -->
+          <div class="ms_arrow ms_arrow-right hidden-xs hidden-sm">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <!-- slider contenuto -->
+        <div class="text-center">
+          <p> Create compute server in 55 seconds or less</p>
+          <ul class="list-inline">
+            <li class="ms_active "><i class="fas fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+          </ul>
+        </div>
+      </div>
+      <!-- fine container -->
+    </section>
+    <!-- end section slider -->
+
+    <!-- inizio section cards -->
+    <section id="services" class="ms_services ms_section">
+      <div class="container">
+        <!-- intro -->
+        <div class="ms_intro">
+          <h2>The features your business needs</h2>
+        </div>
+        <!-- end intro -->
+        <div class="row">
+          <!-- cards left -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="ms_card">
+              <img src="img/pred-pricing.svg" alt="pred pricing logo">
+              <h3>Predictable pricing</h3>
+              <p> Leave complex pricing structures behind. Always know what you'll
+                pay per month with a flat, industry-leading pricing structure.
+              </p>
+              <a class="ms_blue-link" href="#">Pricing &gt;</a>
             </div>
-            <!-- slider contenuto -->
-            <div class="text-center">
-              <p> Create compute server in 55 seconds or less</p>
-              <ul class="list-inline">
-                <li class="ms_active "><i class="fas fa-circle"></i></li>
-                <li><i class="far fa-circle"></i></li>
-                <li><i class="far fa-circle"></i></li>
-                <li><i class="far fa-circle"></i></li>
+          </div>
+          <!-- end cards left -->
+          <!-- card central -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="ms_card">
+              <img src="img/world-class.svg" alt="world class logo">
+              <h3>World-class service</h3>
+              <p> Free round-the-clock techinical support for all customers.
+                You'll feel the love.
+              </p>
+              <a class="ms_blue-link" href="#">Support &gt;</a>
+            </div>
+          </div>
+          <!-- end card central -->
+          <!-- card right -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="ms_card">
+              <img src="img/reliable-platform.svg" alt="reliable-platform logo">
+              <h3>Reliable platform</h3>
+              <p>
+                More than 100,000 developer teams worldwide trust DigitalOcean to support
+                their business with a 99.99% uptime SLA for all serivces.
+              </p>
+              <a class="ms_blue-link" href="#"> Security &gt;</a>
+            </div>
+          </div>
+          <!-- end card right -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end section cards -->
+
+    <!-- section statics-->
+    <section id="regions" class="ms_regions ms_section ms_tertiary">
+      <div class="container">
+        <div class="ms_intro">
+          <h2>Service your customers around the world from 12 regions.</h2>
+        </div>
+        <div class="row">
+          <!-- colonna left -->
+          <div class="col-xs-12 col-sm-6">
+
+            <div class="ms_border-inf">
+              <span> AMS2</span>
+              <span class="ms_sp-center"> Amsterdam, Netherlands</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> AMS3</span>
+              <span class="ms_sp-center"> Amsterdam, Netherlands</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> BLR1</span>
+              <span class="ms_sp-center"> Bangalore,India</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> FRA1</span>
+              <span class="ms_sp-center"> Frankfurt, German</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> LON1</span>
+              <span class="ms_sp-center"> London, UK</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> NYC1</span>
+              <span class="ms_sp-center"> Ney York, USA</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+          </div>
+          <!-- end colonna left -->
+
+          <!--  colonna right -->
+          <div class="col-xs-12 col-sm-6">
+            <div class="ms_border-inf">
+              <span> AMS2</span>
+              <span class="ms_sp-center"> Amsterdam, Netherlands</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> AMS3</span>
+              <span class="ms_sp-center"> Amsterdam, Netherlands</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> BLR1</span>
+              <span class="ms_sp-center"> Bangalore,India</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> FRA1</span>
+              <span class="ms_sp-center"> Frankfurt, German</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> LON1</span>
+              <span class="ms_sp-center"> London, UK</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+
+            <div class="ms_border-inf">
+              <span> NYC1</span>
+              <span class="ms_sp-center"> Ney York, USA</span>
+              <span> <a href="#">Test speed &#62; </a> </span>
+            </div>
+          </div>
+        </div>
+        <!--  colonna right -->
+      </div>
+      <!-- end container -->
+    </section>
+    <section id="slider-footer" class="ms_slider ms_section ms_primary">
+      <div class="container">
+        <!-- intro -->
+        <div class="ms_intro">
+          <h2>Development teams love DigitalOcean</h2>
+        </div>
+        <!-- fine intro -->
+        <!-- slider contenuto -->
+        <div class="ms_slider-content">
+          <!-- freccia sinistra -->
+          <div class="ms_arrow ms_arrow-left hidden-xs hidden-sm">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="ms_secondary">
+
+          </div>
+          <div class="ms_slider-single ms_slider-footer ms_secondary">
+            <img src="img/rockerbox-logo-51462da2.png" alt="rocket-logo">
+            <div class="ms_blockquote">
+              <p>"We have been able to make scaling the technical infracstruture of
+                our business cost effective and efficient."
+              </p>
+              <h5> Rick O'Toole</h5>
+              <p class="ms_sub">Co-founder and CTO</p>
+            </div>
+            <a class="ms_blue-link" href="#">Read story &#62; </a>
+          </div>
+
+          <!-- freccia destra -->
+          <div class="ms_arrow ms_arrow-right hidden-xs hidden-sm">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <!-- slider contenuto -->
+        <div class="text-center">
+          <ul class="list-inline">
+            <li class="ms_active "><i class="fas fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+            <li><i class="far fa-circle"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end slider-footer -->
+    <section id="register" class="ms_section ms_tertiary ms_register">
+      <div class="text-center">
+        <h2>Get Started now.</h2>
+        <button type="button" class="btn btn-default ms_btn-acc">Create your account</button>
+      </div>
+    </section>
+    <!-- end register section -->
+  </main>
+  <!-- end main -->
+  <footer>
+    <div class="ms_footer">
+      <div class="container">
+        <div class="row">
+          <!-- colonna left -->
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <!-- logo -->
+            <div class="ms_logo-footer">
+              <img src="img/logo-small.svg" alt="logo-small">
+            </div>
+            <!-- logo -->
+
+            <div class="ms_credits">
+              <p>&copy; 2018 DigitalOcean,LLC. All right reserved.</p>
+              <p>Proudly made in NY</p>
+            </div>
+            <!-- social -->
+            <div class="ms_social">
+              <ul class="list-inline ms_opacity-5">
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook-square"></i></li>
+                <li><i class="fab fa-instagram-square"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="col-xs-12 col-sm-8">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <h4>Company</h4>
+              <ul class="ms_menu-footer">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Leadership</a>
+                </li>
+                <li>
+                  <a href="#">Link</a>
+                </li>
+                <li>
+                  <a href="#">blog</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+
+                <li>
+                  <a href="#">Partner Network</a>
+                </li>
+                <li>
+                  <a href="#"> Referral Program</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Press</a>
+                </li>
+                <li>
+                  <a href="#">Legal & Security</a>
+
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <h4>Products</h4>
+              <ul class="ms_menu-footer">
+                <li>
+                  <a href="#">Droplets</a>
+                </li>
+                <li>
+                  <a href="#">Spaces</a>
+                </li>
+                <li>
+                  <a href="#">Kumbernets</a>
+                </li>
+                <li>
+                  <a href="#">Load Balancers</a>
+                </li>
+                <li>
+                  <a href="#">Block Storage</a>
+                </li>
+
+                <li>
+                  <a href="#">Tools & Integrations</a>
+                </li>
+                <li>
+                  <a href="#">One-click Apps</a>
+                </li>
+                <li>
+                  <a href="#">Api</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#">Documentation</a>
+
+                </li>
 
               </ul>
 
             </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <h4>Community</h4>
+              <ul class="ms_menu-footer">
+                <li>
+                  <a href="#">Tutorials</a>
+                </li>
+                <li>
+                  <a href="#">Meetups</a>
+                </li>
+                <li>
+                  <a href="#">Q&A</a>
+                </li>
+                <li>
+                  <a href="#">Write for Donations</a>
+                </li>
+                <li>
+                  <a href="#">Droplets for Demos</a>
+                </li>
+
+                <li>
+                  <a href="#">Hatch</a>
+                </li>
+                <li>
+                  <a href="#"> Show Swag</a>
+                </li>
+                <li>
+                  <a href="#">Research Program</a>
+                </li>
+                <li>
+                  <a href="#">Currents Research</a>
+                </li>
+                <li>
+                  <a href="#">Open source</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <h4>Support</h4>
+              <ul class="ms_menu-footer">
+                <li>
+                  <a href="#">Contact support</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Network Status</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-<!-- fine container -->
-
-    </section>
-  </main>
-
-  <footer></footer>
+    </div>
+  </footer>
 
 </body>
 </html>
